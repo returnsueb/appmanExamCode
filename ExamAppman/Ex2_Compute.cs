@@ -13,7 +13,7 @@ namespace ExamAppman
             Console.Write("\nInput calculate result from input formula: ");
             string formula = Console.ReadLine();
             double result = SeparateFormula(formula);
-            Console.WriteLine(formula + " = " + result);
+            Console.Write(formula + " = " + result);
         }
 
         private double SeparateFormula(string formula)

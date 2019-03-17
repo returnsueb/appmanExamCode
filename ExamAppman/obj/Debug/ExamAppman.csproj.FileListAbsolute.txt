@@ -3,3 +3,4 @@ D:\Example\ExamAppman\ExamAppman\bin\Debug\ExamAppman.exe
 D:\Example\ExamAppman\ExamAppman\bin\Debug\ExamAppman.pdb
 D:\Example\ExamAppman\ExamAppman\obj\Debug\ExamAppman.exe
 D:\Example\ExamAppman\ExamAppman\obj\Debug\ExamAppman.pdb
+D:\Example\ExamAppman\ExamAppman\obj\Debug\ExamAppman.csprojResolveAssemblyReference.cache

@@ -13,31 +13,43 @@ namespace ExamAppman
             ConsoleKeyInfo cki;
             ///EX 1 Bingo ---> Run ex 1 uncomment below ***
 
-            Ex1_Bingo ex1Bingo = new Ex1_Bingo();
-            do
-            {
-                try
-                {
-                    bool binggoResult = ex1Bingo.Bingo();
-                    if (binggoResult)
-                        Console.Write(binggoResult + " - " + "Bingo");
-                    else
-                        Console.Write(binggoResult + " - " + "Not Bingo");
-                }
-                catch (Exception e)
-                {
-                    Console.Write("Input Error.");
-                }
 
-                cki = Console.ReadKey();
-            } while (cki.Key != ConsoleKey.Escape);
+
+
+
+            //Ex1_Bingo ex1Bingo = new Ex1_Bingo();
+            //do
+            //{
+            //    try
+            //    {
+            //        bool binggoResult = ex1Bingo.Bingo();
+            //        if (binggoResult)
+            //            Console.Write(binggoResult + " - " + "Bingo");
+            //        else
+            //            Console.Write(binggoResult + " - " + "Not Bingo");
+            //    }
+            //    catch (Exception e)
+            //    {
+            //        Console.Write("Input Error.");
+            //    }
+
+            //    cki = Console.ReadKey();
+            //} while (cki.Key != ConsoleKey.Escape);
+
+
+
+
 
 
             ///End of ex 1 Bingo
 
             ///EX 2 Compute  ---> Run ex 2 uncomment below ***
 
-            //do
+
+
+
+
+            do
             {
                 try
                 {
@@ -51,7 +63,12 @@ namespace ExamAppman
                 }
 
                 cki = Console.ReadKey();
-            } while (cki.Key != ConsoleKey.Escape) ;
+            } while (cki.Key != ConsoleKey.Escape);
+
+
+
+
+
 
             //End of ex 2 Compute
         }

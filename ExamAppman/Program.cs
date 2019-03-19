@@ -72,9 +72,7 @@ namespace ExamAppman
 
             //End of ex 2 Compute
 
-            //main_method a = new main_method();
-            //a.Main();
-            //Console.ReadLine();
+            
         }
     }
 }

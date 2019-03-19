@@ -94,7 +94,7 @@ namespace ExamAppman
             int ArrayConut = 0;
             while (stack.Count >= 3)
             {
-                int result = 0;
+                Double result = 0;
                 List<string> arrayResult = new List<string>();
                 List<string> array = stack.Reverse().ToList();
 
@@ -105,11 +105,11 @@ namespace ExamAppman
                     {
                         if (result == 0 && arrayResult[arrayResult.Count - 1] != "0")
                         {
-                            result = Convert.ToInt16(array[ArrayConut - 1]) - Convert.ToInt16(array[ArrayConut + 1]);
+                            result = Convert.ToDouble(array[ArrayConut - 1]) - Convert.ToDouble(array[ArrayConut + 1]);
                         }
                         else
                         {
-                            result -= Convert.ToInt16(array[ArrayConut + 1]);
+                            result -= Convert.ToDouble(array[ArrayConut + 1]);
                         }
                         arrayResult[arrayResult.Count - 1] = result.ToString();
                         ArrayConut++;
@@ -118,12 +118,12 @@ namespace ExamAppman
                     {
                         if (result == 0 && arrayResult[arrayResult.Count - 1] != "0")
                         {
-                            result = Convert.ToInt16(array[ArrayConut - 1]) + Convert.ToInt16(array[ArrayConut + 1]);
+                            result = Convert.ToDouble(array[ArrayConut - 1]) + Convert.ToDouble(array[ArrayConut + 1]);
                         }
                         else
                         {
 
-                            result += Convert.ToInt16(array[ArrayConut + 1]);
+                            result += Convert.ToDouble(array[ArrayConut + 1]);
                         }
                         arrayResult[arrayResult.Count - 1] = result.ToString();
                         ArrayConut++;
@@ -150,11 +150,11 @@ namespace ExamAppman
                     {
                         if (result == 0 && arrayResult2[arrayResult2.Count - 1] != "0")
                         {
-                            result = Convert.ToInt16(array[ArrayConut - 1]) * Convert.ToInt16(array[ArrayConut + 1]);
+                            result = Convert.ToDouble(array[ArrayConut - 1]) * Convert.ToDouble(array[ArrayConut + 1]);
                         }
                         else
                         {
-                            result *= Convert.ToInt16(array[ArrayConut + 1]);
+                            result *= Convert.ToDouble(array[ArrayConut + 1]);
                         }
                         arrayResult2[arrayResult2.Count - 1] = result.ToString();
                         ArrayConut++;
@@ -163,12 +163,12 @@ namespace ExamAppman
                     {
                         if (result == 0 && arrayResult2[arrayResult2.Count - 1] != "0")
                         {
-                            result = Convert.ToInt16(array[ArrayConut - 1]) / Convert.ToInt16(array[ArrayConut + 1]);
+                            result = Convert.ToDouble(array[ArrayConut - 1]) / Convert.ToDouble(array[ArrayConut + 1]);
                         }
                         else
                         {
 
-                            result /= Convert.ToInt16(array[ArrayConut + 1]);
+                            result /= Convert.ToDouble(array[ArrayConut + 1]);
                         }
                         arrayResult2[arrayResult2.Count - 1] = result.ToString();
                         ArrayConut++;

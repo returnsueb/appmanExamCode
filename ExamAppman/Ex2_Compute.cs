@@ -103,7 +103,7 @@ namespace ExamAppman
                 {
                     if (array[ArrayConut].Contains("-"))
                     {
-                        if (result == 0)
+                        if (result == 0 && arrayResult[arrayResult.Count - 1] != "0")
                         {
                             result = Convert.ToInt16(array[ArrayConut - 1]) - Convert.ToInt16(array[ArrayConut + 1]);
                         }
@@ -116,7 +116,7 @@ namespace ExamAppman
                     }
                     else if (array[ArrayConut].Contains("+"))
                     {
-                        if (result == 0)
+                        if (result == 0 && arrayResult[arrayResult.Count - 1] != "0")
                         {
                             result = Convert.ToInt16(array[ArrayConut - 1]) + Convert.ToInt16(array[ArrayConut + 1]);
                         }
@@ -148,7 +148,7 @@ namespace ExamAppman
                 {
                     if (array[ArrayConut].Contains("*"))
                     {
-                        if (result == 0)
+                        if (result == 0 && arrayResult2[arrayResult2.Count - 1] != "0")
                         {
                             result = Convert.ToInt16(array[ArrayConut - 1]) * Convert.ToInt16(array[ArrayConut + 1]);
                         }
@@ -161,7 +161,7 @@ namespace ExamAppman
                     }
                     else if (array[ArrayConut].Contains("/"))
                     {
-                        if (result == 0)
+                        if (result == 0 && arrayResult2[arrayResult2.Count - 1] != "0")
                         {
                             result = Convert.ToInt16(array[ArrayConut - 1]) / Convert.ToInt16(array[ArrayConut + 1]);
                         }

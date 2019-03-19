@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Ex1_Bingo.cs" />
     <Compile Include="Ex2_Compute.cs" />
+    <Compile Include="Ex3_Abstract.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
